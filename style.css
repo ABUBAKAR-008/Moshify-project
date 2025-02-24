@@ -1,0 +1,303 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.nav-bar {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.hamburger {
+    padding: 20px 40px 0px 0px;
+}
+
+.list-item ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 40px 0px 0px;
+}
+
+.list-item ul {
+    gap: 20px;
+}
+
+
+.list-item ul a {
+    color: white;
+}
+
+.firstcontainer {
+    width: 100%;
+    margin: auto;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 50px;
+
+}
+
+.f1-con-d1 {
+    padding-left: 100px;
+    padding-top: 200px;
+    color: white;
+}
+
+.f1-con-d1 h1 {
+    font-size: 5rem;
+}
+
+.f1-con-d1 p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding-bottom: 50px;
+}
+
+.btn1,
+.btn2 {
+    background: #ff3400;
+    padding: 20px 70px;
+    border-radius: 30px;
+    border: none;
+
+}
+
+.btn1 a {
+    color: #fff;
+    font-size: 1.3rem;
+}
+
+.twocon h2 {
+    font-size: 2.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.twocon p {
+    font-size: 1.3rem;
+    padding-bottom: 1.5rem;
+
+}
+
+.btn2 {
+    border-radius: 40px;
+
+    padding: 1.4rem 3.3rem;
+    position: relative;
+    margin-left: -30px;
+    font-size: 1.4rem;
+    color: white;
+}
+
+.input1 {
+    
+    width: 40%;
+    align-content: start;
+    padding: 0.9rem 9.1rem;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 0 30px 20px #e6ebee;
+    outline: none;
+
+}
+
+.input1:focus {
+    border: none;
+}
+
+.twocon {
+    text-align: center;
+    margin: 3.5rem 1.5rem;
+}
+
+.dommain_prices ul{
+    display: grid;
+    padding-left: 100px;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: 1fr;
+    width: 80%;
+    margin: auto;
+    padding-top: 4rem;
+
+}
+.bage{
+    background-color: #00d9ff;
+    padding: 0.5rem 1.5rem;
+    border-radius: 20px;
+}
+
+/* //////cards/////// */
+
+.cards{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* align-items: center; */
+    width: 90%;
+    margin: auto;
+    display: grid;
+    gap: 50px;
+    margin-top: 150px;
+    grid-template-columns: repeat(3,1fr);
+    color: #fff;
+    
+}
+
+.in_card , .in2_card{
+    background-color: #00d9ff;
+    padding: 10px 0px 50px 30px;
+    border-radius: 10px 10px 0px 0px;
+
+
+}
+.in2_card{
+ background-color: #2584ff;
+ border-radius: 10px 10px 0px 0px;
+}
+
+.f1_card h3 , .f2_card h3 , .f3_card h3{
+    padding-right: 120px;
+    padding-bottom: 20px;
+}
+
+.amount_card{
+    font-size: 1.8rem;
+}
+
+.cards ul{
+color: #1B0760;
+}
+
+.cards ul li{
+    padding: 30px 0px 0px 40px;
+margin-bottom: 15px;
+}
+.fa-check{
+    padding-right: 10px;
+}
+
+.btn3{
+    border: 2px solid #1B0760;
+    margin-top: 20px;
+margin-left: 40px;
+border-radius: 30px;
+padding: 1rem 6rem;
+font-size: 1.2rem;
+}
+.btn3:hover{
+    background-color: #1B0760;
+    color: #fff;
+}
+
+.month{
+    padding-left: 20px;
+}
+.off{
+    margin: 10px;
+    background-color: #02cdf1;
+    border-radius: 20px;
+    padding: 5px 15px;
+}
+.off2{
+    background-color: #126de4;
+    padding: 5px 15px;
+    border-radius: 20px;
+
+}
+
+.f2_card {
+    transform: scale(110%);
+}
+.f2_card:hover {
+    transform: scale(120%);
+
+}
+.f1_card , .f2_card , .f3_card{
+  transition: transform .5s;
+
+}
+
+.f1_card:hover , .f3_card:hover{
+    transform: scale(110%);
+}
+.h1-aftercard{
+    color: #1B0760;
+    text-align: center;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+.p-aftercard{
+    color: #918ca4;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.aftcard-1{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 200px;
+}
+
+.main-f1{
+    width: 90%;
+    margin: auto;
+}
+.lrn-more{
+    color: red;
+    text-align: center;
+    display: flex;
+    /* justify-content: center; */
+}
+.h1-aftercard{
+    padding-bottom: 50px;
+}
+.p-aftercard{
+    padding-bottom: 30px;
+
+}
+
+.black-bg{
+    background-color: black;
+ 
+
+}
+
+.black-bg h1{
+    color: white;
+    text-align: center;
+  padding: 50px 0px;
+  
+}
+
+.black-bg-main{
+    display: flex;
+    color: white;
+    gap: 4rem;
+}
+
+
+.gap{
+    padding-bottom: 6rem;
+}
+.sec-side{
+   padding-top: 50px; 
+}
