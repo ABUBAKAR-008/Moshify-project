@@ -1,0 +1,157 @@
+@media only screen and (min-width: 768px) and (max-width: 1440px) {
+  .hamburger {
+    display: none;
+    padding-left: 300px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .cards{
+    width: 95%;
+    margin: auto;
+    gap: 30px;
+
+  }
+  .im7{
+    width: 400px;
+  }
+  .sec-side{
+    padding-top: 10px; 
+ }
+ .black-bg-main{
+ 
+  gap: 2rem;
+}
+.gap{
+  padding-bottom: 4rem;
+}
+}
+@media only screen and (max-width: 958px) {
+  .black-bg-main{
+    display: flex;
+    flex-direction: column;
+
+    color: white;
+    gap: 4rem;
+}
+.im7{
+  display: flex;
+  width: 100%;
+}
+.sec-side{
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+}
+
+@media only screen and (max-width: 767px) {
+  .list-item ul {
+    display: none;
+  }
+  .logo img {
+    width: 150px;
+  }
+  .firstcontainer {
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+  .f1-con-d1 {
+    width: 100%;
+    padding-left: 30px;
+    padding-top: 80px;
+  }
+  .f1-con-d1 h1 {
+    font-size: 3rem;
+    width: 100%;
+  }
+  .f1-con-d1 p {
+    padding-bottom: 10px;
+  }
+
+  .im1 {
+    width: 100%;
+  }
+
+  .input1 {
+    padding: 0.9rem 5.1rem;
+  }
+  .btn2 {
+    padding: 1.4rem 2.5rem;
+
+  }
+  .dommain_prices ul{
+    padding-left: 50px;
+  }
+  .dommain_prices ul{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    padding-left: 20px;
+    grid-template-rows: 1fr 1fr;
+    width: 80%;
+    margin: auto;
+    
+
+}
+  .cards{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+width: 60%;
+margin: auto;
+
+}
+  .f3_card , .f2_card , .f1_card{
+    padding-bottom: 5rem;
+    justify-content: center;
+    align-items: start;
+  }
+  .aftcard-1{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin-top: 200px;
+}
+.main-f2{
+  padding-top: 50px;
+}
+.im3{
+  width: 95%;
+  margin: auto;
+}
+}
+
+@media only screen and (max-width: 524px) {
+  .input1 {
+    padding: 0.9rem 1.1rem;
+  }
+  .btn2 {
+    padding: 1rem 1.5rem;
+
+  }
+  .dommain_prices ul{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 1fr 1fr;
+    width: 100%;
+    margin: auto;
+
+}
+.bage{
+  padding: 0.5rem 0.8rem;
+}
+}
+
+
+@media only screen and (max-width: 344px) {
+  .btn2 {
+    padding: 0.2rem 0.4rem;
+    font-size: 1.1rem;
+
+  }
+  .btn1{
+    padding: 1rem 3rem;
+
+  }
+}
